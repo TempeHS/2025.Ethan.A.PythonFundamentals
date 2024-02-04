@@ -1,4 +1,7 @@
-string = input("Write a sentence ")
-new_string = string.replace(" ", "...")
+def main():
+    string = input("Write a sentence ")
+    new_string = string.replace(" ", "...")
+    print(new_string)
 
-print(new_string)
+
+main()
