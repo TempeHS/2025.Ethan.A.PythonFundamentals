@@ -1,7 +1,7 @@
 def main():
     string = input("Write a sentence ")
-    new_string = string.replace(" ", "...")
-    print(new_string)
+    replacedstring = string.replace(" ", "...")
+    print(replacedstring)
 
 
 main()
