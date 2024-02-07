@@ -1,5 +1,11 @@
 def convert(emoticon):
-    print(emoticon.replace(":)", "🙂").replace(":(", "🙁"))
+    print(
+        emoticon.replace(":)", "🙂")
+        .replace(":(", "🙁")
+        .replace(":I", "😐")
+        .replace(">:[", "👿")
+        .replace("small", "small 🍆")
+    )
 
 
 def main():
