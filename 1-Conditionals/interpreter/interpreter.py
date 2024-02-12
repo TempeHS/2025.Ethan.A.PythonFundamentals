@@ -1,5 +1,5 @@
 def main():
-    equation = input("input an equation")
+    equation = input("input an equation ")
     (
         x,
         y,
@@ -14,6 +14,9 @@ def main():
         answer = x_f - z_f
     if y == ("/"):
         answer = x_f / z_f
+    if y == ("*"):
+        answer = x_f * z_f
+    print(round(answer, 2))
 
 
 main()
