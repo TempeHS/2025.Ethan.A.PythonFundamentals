@@ -1,5 +1,9 @@
+import random
+
+
 def computer_choice():
-    return "rock"
+    options = ["paper", "rock", "scissors"]
+    computer_choice
 
 
 def player_choice():
@@ -11,23 +15,23 @@ def player_choice():
             case "rock":
                 if player_choice == "rock":
                     print("You Tie")
-                elif player_choice == "paper":
+                if player_choice == "paper":
                     print("You Win")
-                elif player_choice == "scissors":
+                if player_choice == "scissors":
                     print("You Lose")
             case "scissors":
                 if player_choice == "rock":
                     print("You Win")
-                elif player_choice == "paper":
+                if player_choice == "paper":
                     print("You Lose")
-                elif player_choice == "scissors":
+                if player_choice == "scissors":
                     print("You Tie")
             case "paper":
                 if player_choice == "rock":
                     print("You Lose")
-                elif player_choice == "paper":
+                if player_choice == "paper":
                     print("You Tie")
-                elif player_choice == "scissors":
+                if player_choice == "scissors":
                     print("You Win")
 
 
