@@ -1,15 +1,17 @@
 import random
 
 
-def computer_choice():
+def randomiser():
     options = ["paper", "rock", "scissors"]
-    computer_choice
+    computer_choice = random.choice(options)
+    return computer_choice
 
 
 def player_choice():
     games_played = 0
     while games_played < 3:
         games_played = games_played + 1
+        computer_choice = randomiser
         player_choice = input("Choose rock, paper or scissors:   ").lower()
         match computer_choice():
             case "rock":
