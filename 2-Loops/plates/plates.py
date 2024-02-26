@@ -17,7 +17,6 @@ def is_valid(s):
         valid_check = False
         return valid_check
     for char in s:
-        # Make sure only valid characters are in the string, no special char or spaces
         if not char.isalnum():
             valid_check = False
             return valid_check
