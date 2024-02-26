@@ -20,13 +20,13 @@ def is_valid(s):
         if not char.isalnum():
             valid_check = False
             return valid_check
+        # count the number of digits in the string
+        if char.isdigit():
+            digit_count += 1
         # check to see if numbers are in the middle of the string
         if digit_count > 1 and char.isalpha():
             valid_check = False
             return valid_check
-        # count the number of digits in the string
-        if char.isdigit():
-            digit_count += 1
         # Make sure the first number is not 0
         if digit_count == 1 and char == "0":
             valid_check = False
