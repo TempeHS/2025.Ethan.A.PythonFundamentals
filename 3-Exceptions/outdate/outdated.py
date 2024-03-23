@@ -21,7 +21,6 @@ while True:
         elif "," in date:
             mmdd, yyyy = date.split(", ")
             mm, dd = mmdd.split(" ")
-            # No need to check if mm in months. KeyError is handled separately.
             mm = (month.index(mm)) + 1
         if int(mm) > 12 or int(dd) > 31:
             raise ValueError
